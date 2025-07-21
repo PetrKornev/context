@@ -4,8 +4,8 @@ import { useContext, useEffect } from 'react';
 import { translations } from './translations';
 
 const Header = () => {
-  const { language, toggleLanguage } = useContext(LanguageContext);
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { language } = useContext(LanguageContext);
+  const { theme } = useContext(ThemeContext);
 
   useEffect(() => {
     if (theme === 'light') {

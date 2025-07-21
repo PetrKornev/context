@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { translations } from './translations';
 
 const UserProfile = () => {
-  const { language, toggleLanguage } = useContext(LanguageContext);
+  const { language } = useContext(LanguageContext);
 
   return <div>{translations[language].profile}</div>;
 };
