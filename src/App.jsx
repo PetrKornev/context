@@ -10,8 +10,6 @@ import Header from './Header';
 import UserProfile from './UserProfile';
 
 function App() {
-  const [language, setLanguage] = useState('en');
-
   return (
     <>
       <LanguageProvider>
